@@ -1,0 +1,133 @@
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:0;
+    opacity:0.8;
+    display: table;
+    background: linear-gradient( #a8f9d9 0%,#0bca7e 100%);
+    z-index: 5;
+    
+
+}
+#heading{
+    font-size: 50px;
+    font-family: 'lato',sans-serif;
+    font-weight: 300;
+    font-family: 'Potta One', cursive;
+}
+#founder{
+     font-size: 30px;
+    font-family: 'Potta One', cursive;
+    font-weight: 300;
+}
+#name {
+    font-size: 40px;
+font-family: 'Potta One', cursive;
+    line-height: : 1.2;
+}
+img{
+    padding: 20px;
+    width:200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+body{
+    margin:0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+#bio{
+    font-size:20px;
+    text-align: center;
+    padding: 50px;
+    
+    
+}
+.edit{
+    height:6px;
+    background-color: black;
+    margin:8px auto;
+    width:70px;
+}
+p{
+    max-width: 550px;
+    font-family: cursive;
+    font-size:20px;
+    margin:25px auto;
+}
+.welcomediv{
+    position:relative;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+
+}
+
+
+.menu{
+    top:0px;
+    margin-top:0px;
+    width:100%;
+    position: fixed;
+    font-family: cursive;
+    z-index: 10;
+    cursor: pointer;
+    margin-left:350px;
+    }
+
+.link{
+    display:inline;
+    font-family: cursive;
+    font-size: 20px;
+    float:left;
+    padding :10px 10px;
+    color: brown;
+}
+.link:hover{
+    background-color: blue;
+}
+html{
+    scroll-behavior: smooth;
+}
+.wlink:hover{
+    color:brown;
+    
+    }
+#writings  a{
+    margin:100px;
+    font-size:20px;
+    text-decoration:underline!important;
+    text-shadow: none!important;
+    color:chocolate!important;
+    font-family: 'Londrina Solid', cursive;
+}
+a{
+    text-decoration: underline;
+    text-shadow: 2px 2px black;
+    color:crimson;
+    
+}
+.contactdiv{
+    background-color: aqua;
+    color: chocolate;
+    
+}
+#contact a{
+    text-decoration:none!important;
+    text-shadow:none!important;
+    
+}
+#myphoto{
+    border-radius: 20px;
+    border-width: medium;
+    border-color: black;
+    border-style:solid;
+    padding: 10px;
+}
